@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{letask}
+\ProvidesClass{../tools/letask}
 \ProcessOptions
 
 \LoadClass[12pt, a4paper, titlepage, final]{article}
@@ -34,6 +34,7 @@
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \RequirePackage{titlesec}
 \titlelabel{\thetitle.\quad}
+\RequirePackage{enumitem}
 
 % Графика
 \RequirePackage{graphicx}
@@ -57,4 +58,3 @@
 % Gnuplot
 %\RequirePackage{gnuplottex}
 \RequirePackage{epstopdf}
-\RequirePackage{enumitem}
